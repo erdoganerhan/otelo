@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83DA579C237B4EF700A17C32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA579B237B4EF700A17C32 /* AppDelegate.swift */; };
+		83DA579E237B4EF700A17C32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA579D237B4EF700A17C32 /* SceneDelegate.swift */; };
+		83DA57A0237B4EF700A17C32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA579F237B4EF700A17C32 /* ViewController.swift */; };
+		83DA57A3237B4EF700A17C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DA57A1237B4EF700A17C32 /* Main.storyboard */; };
+		83DA57A5237B4EF800A17C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83DA57A4237B4EF800A17C32 /* Assets.xcassets */; };
+		83DA57A8237B4EF800A17C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DA57A6237B4EF800A17C32 /* LaunchScreen.storyboard */; };
+		83DA57B1237B4F3600A17C32 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA57B0237B4F3600A17C32 /* Hotel.swift */; };
+		83DA57B3237B4F4700A17C32 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA57B2237B4F4700A17C32 /* Data.swift */; };
+		83DA57BD237C99D000A17C32 /* CreditsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA57BC237C99D000A17C32 /* CreditsController.swift */; };
+		83DA57BF237C99E300A17C32 /* IncomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA57BE237C99E300A17C32 /* IncomeController.swift */; };
+		83DA57C1237C9A2700A17C32 /* ExpensesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA57C0237C9A2700A17C32 /* ExpensesController.swift */; };
+		83DA57C3237C9A6B00A17C32 /* ChequeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA57C2237C9A6B00A17C32 /* ChequeController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83DA5798237B4EF700A17C32 /* otelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DA579B237B4EF700A17C32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83DA579D237B4EF700A17C32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83DA579F237B4EF700A17C32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83DA57A2237B4EF700A17C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83DA57A4237B4EF800A17C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83DA57A7237B4EF800A17C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83DA57A9237B4EF800A17C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DA57B0237B4F3600A17C32 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		83DA57B2237B4F4700A17C32 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		83DA57BC237C99D000A17C32 /* CreditsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsController.swift; sourceTree = "<group>"; };
+		83DA57BE237C99E300A17C32 /* IncomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeController.swift; sourceTree = "<group>"; };
+		83DA57C0237C9A2700A17C32 /* ExpensesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesController.swift; sourceTree = "<group>"; };
+		83DA57C2237C9A6B00A17C32 /* ChequeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChequeController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83DA5795237B4EF700A17C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83DA578F237B4EF700A17C32 = {
+			isa = PBXGroup;
+			children = (
+				83DA579A237B4EF700A17C32 /* otelo */,
+				83DA5799237B4EF700A17C32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83DA5799237B4EF700A17C32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83DA5798237B4EF700A17C32 /* otelo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83DA579A237B4EF700A17C32 /* otelo */ = {
+			isa = PBXGroup;
+			children = (
+				83DA57AF237B4F1E00A17C32 /* Model */,
+				83DA579B237B4EF700A17C32 /* AppDelegate.swift */,
+				83DA579D237B4EF700A17C32 /* SceneDelegate.swift */,
+				83DA579F237B4EF700A17C32 /* ViewController.swift */,
+				83DA57BC237C99D000A17C32 /* CreditsController.swift */,
+				83DA57BE237C99E300A17C32 /* IncomeController.swift */,
+				83DA57C0237C9A2700A17C32 /* ExpensesController.swift */,
+				83DA57C2237C9A6B00A17C32 /* ChequeController.swift */,
+				83DA57A1237B4EF700A17C32 /* Main.storyboard */,
+				83DA57A4237B4EF800A17C32 /* Assets.xcassets */,
+				83DA57A6237B4EF800A17C32 /* LaunchScreen.storyboard */,
+				83DA57A9237B4EF800A17C32 /* Info.plist */,
+			);
+			path = otelo;
+			sourceTree = "<group>";
+		};
+		83DA57AF237B4F1E00A17C32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83DA57B0237B4F3600A17C32 /* Hotel.swift */,
+				83DA57B2237B4F4700A17C32 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83DA5797237B4EF700A17C32 /* otelo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DA57AC237B4EF800A17C32 /* Build configuration list for PBXNativeTarget "otelo" */;
+			buildPhases = (
+				83DA5794237B4EF700A17C32 /* Sources */,
+				83DA5795237B4EF700A17C32 /* Frameworks */,
+				83DA5796237B4EF700A17C32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = otelo;
+			productName = otelo;
+			productReference = 83DA5798237B4EF700A17C32 /* otelo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83DA5790237B4EF700A17C32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Erhan Erdoğan";
+				TargetAttributes = {
+					83DA5797237B4EF700A17C32 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 83DA5793237B4EF700A17C32 /* Build configuration list for PBXProject "otelo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83DA578F237B4EF700A17C32;
+			productRefGroup = 83DA5799237B4EF700A17C32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83DA5797237B4EF700A17C32 /* otelo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83DA5796237B4EF700A17C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DA57A8237B4EF800A17C32 /* LaunchScreen.storyboard in Resources */,
+				83DA57A5237B4EF800A17C32 /* Assets.xcassets in Resources */,
+				83DA57A3237B4EF700A17C32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83DA5794237B4EF700A17C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DA57BF237C99E300A17C32 /* IncomeController.swift in Sources */,
+				83DA57A0237B4EF700A17C32 /* ViewController.swift in Sources */,
+				83DA57C1237C9A2700A17C32 /* ExpensesController.swift in Sources */,
+				83DA57B3237B4F4700A17C32 /* Data.swift in Sources */,
+				83DA57C3237C9A6B00A17C32 /* ChequeController.swift in Sources */,
+				83DA579C237B4EF700A17C32 /* AppDelegate.swift in Sources */,
+				83DA57B1237B4F3600A17C32 /* Hotel.swift in Sources */,
+				83DA57BD237C99D000A17C32 /* CreditsController.swift in Sources */,
+				83DA579E237B4EF700A17C32 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83DA57A1237B4EF700A17C32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DA57A2237B4EF700A17C32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83DA57A6237B4EF800A17C32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DA57A7237B4EF800A17C32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83DA57AA237B4EF800A17C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83DA57AB237B4EF800A17C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83DA57AD237B4EF800A17C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BU3P57VN5;
+				INFOPLIST_FILE = otelo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erhanerdogan.otelo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83DA57AE237B4EF800A17C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BU3P57VN5;
+				INFOPLIST_FILE = otelo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.erhanerdogan.otelo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83DA5793237B4EF700A17C32 /* Build configuration list for PBXProject "otelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DA57AA237B4EF800A17C32 /* Debug */,
+				83DA57AB237B4EF800A17C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83DA57AC237B4EF800A17C32 /* Build configuration list for PBXNativeTarget "otelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DA57AD237B4EF800A17C32 /* Debug */,
+				83DA57AE237B4EF800A17C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83DA5790237B4EF700A17C32 /* Project object */;
+}
